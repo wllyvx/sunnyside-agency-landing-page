@@ -14,8 +14,8 @@
   </style>
 </head>
 <body class="bg-[#fffbf8]">
-  <div class="hero bg-[url('/images/desktop/image-header.jpg')] h-full bg-center bg-no-repeat bg-cover">
-    <nav class="">
+  <div class="hero relative h-full bg-center bg-no-repeat bg-cover">
+    <nav class="absolute w-full">
       <div class="max-w-8xl mx-auto">
         <div class="relative flex justify-between items-center text-white px-10 md:px-20 py-10">
           <div class="">
@@ -41,7 +41,7 @@
     </nav>
         <!-- mobile menu -->
           
-        <div class="flex justify-center items-center mobile-menu hidden md:hidden mt-48">
+        <div class="absolute flex mx-auto w-full z-10 justify-center items-center mobile-menu hidden md:hidden mt-72">
           <div class="absolute flex flex-col items-center justify-center space-y-8 py-20 font-barlow text-2xl text-dark-grayish-blue bg-white text-center w-[80vw]">
             <a href="#about" class="block">About</a>
             <a href="#services" class="block">Services</a>
@@ -53,7 +53,11 @@
         </div>
         
         <!-- mobile menu end -->
-    <div class="flex flex-col justify-start items-center mt-20 w-full space-y-56 h-[90vh]">
+    <div class="">
+      <img src="./images/desktop/image-header.jpg" alt="" class="hidden md:block w-[100vw] z-[-10]">
+      <img src="./images/mobile/image-header.jpg" alt="" class="block md:hidden z-[-10]">
+    </div>
+    <div class="absolute top-0 flex flex-col justify-start items-center mt-48 w-full space-y-10 md:space-y-56 h-[90vh]">
         <h1 class="font-fraunces font-black text-white text-center text-4xl md:text-6xl tracking-widest uppercase">We Are creatives</h1>
         <img src="./images/icon-arrow-down.svg" alt="" class="">
     </div>
