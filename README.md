@@ -24,19 +24,19 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop preview:
+Desktop preview: <br>
 ![](./screenshots/desktop.png)
 
-Mobile preview:
+Mobile preview: <br>
 ![](./screenshots/mobile.png)
 
-Mobile menu preview:
+Mobile menu preview: <br>
 ![](./screenshots/mobile-menu.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/wllyvx/sunnyside-agency-landing-page)
-- Live Site URL: [Add live site URL here](https://wllyvx.github.io/sunnyside-agency-landing-page/)
+- Solution URL: [https://github.com/wllyvx/sunnyside-agency-landing-page]
+- Live Site URL: [https://wllyvx.github.io/sunnyside-agency-landing-page/]
 
 ## My process
 
